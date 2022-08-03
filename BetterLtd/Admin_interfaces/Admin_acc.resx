@@ -1,0 +1,1065 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;accid.Name" xml:space="preserve">
+    <value>accid</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gender_m.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 111</value>
+  </data>
+  <data name="btn_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 380</value>
+  </data>
+  <data name="&gt;&gt;isAdmin.Name" xml:space="preserve">
+    <value>isAdmin</value>
+  </data>
+  <data name="Position_list.Items4" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="Salary_numeric.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="Position_list.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 163</value>
+  </data>
+  <data name="&gt;&gt;isManager_check.Name" xml:space="preserve">
+    <value>isManager_check</value>
+  </data>
+  <data name="Lastname_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gender_m.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="&gt;&gt;acc_View.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Acc_mng_lbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 36pt, style=Bold</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StaffTel_label.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="Salary_label.Text" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="&gt;&gt;Lastname_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StaffTel_label.Name" xml:space="preserve">
+    <value>StaffTel_label</value>
+  </data>
+  <data name="&gt;&gt;Gender_label.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btn_cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="Gender_label.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="btn_cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 39</value>
+  </data>
+  <data name="&gt;&gt;btn_del.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="StaffTel.HeaderText" xml:space="preserve">
+    <value>StaffTel</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.Name" xml:space="preserve">
+    <value>btn_cancel</value>
+  </data>
+  <data name="btn_back.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;Gender.Name" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="txt_search.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Name" xml:space="preserve">
+    <value>txt_search</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_cancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Salary_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;img_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Gender_F.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="StaffTel_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Pwd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StaffTel_text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;isManagel_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_add.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Password_label.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;gender_m.Name" xml:space="preserve">
+    <value>gender_m</value>
+  </data>
+  <data name="&gt;&gt;Salary_numeric.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="isManagel_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 23</value>
+  </data>
+  <data name="StaffTel_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="isAdmin_label.Text" xml:space="preserve">
+    <value>isAdmin</value>
+  </data>
+  <data name="Lastname_text.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="&gt;&gt;btn_del.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_del.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="Acc_mng_lbl.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Admin_acc</value>
+  </data>
+  <data name="Position_list.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="Gender_F.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isManager_check.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 218</value>
+  </data>
+  <data name="&gt;&gt;Salary_numeric.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lastname_text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;isManager_check.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;StaffTel_text.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Gender_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gender_m.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lastname_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 163</value>
+  </data>
+  <data name="Salary_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 23</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Name" xml:space="preserve">
+    <value>btn_add</value>
+  </data>
+  <data name="StaffTel_text.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="btn_del.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;Salary_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Password_text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 310</value>
+  </data>
+  <data name="isManagel_label.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="Salary_numeric.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="Acc_mng_lbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 59</value>
+  </data>
+  <data name="&gt;&gt;isValid.Name" xml:space="preserve">
+    <value>isValid</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;Lastname_text.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Firstname_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 113</value>
+  </data>
+  <data name="&gt;&gt;gender_m.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Firstname_label.Name" xml:space="preserve">
+    <value>Firstname_label</value>
+  </data>
+  <data name="Gender_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 111</value>
+  </data>
+  <data name="Salary_numeric.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="&gt;&gt;isAdmin_check.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;StaffTel_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Firstname_label.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btn_back.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 27</value>
+  </data>
+  <data name="Firstname_label.Text" xml:space="preserve">
+    <value>Firstname</value>
+  </data>
+  <data name="&gt;&gt;Position.Name" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="btn_back.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 48</value>
+  </data>
+  <data name="FirstName.HeaderText" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <data name="Firstname_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="&gt;&gt;img_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Salary_label.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;Gender_label.Name" xml:space="preserve">
+    <value>Gender_label</value>
+  </data>
+  <data name="btn_del.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 39</value>
+  </data>
+  <data name="Lastname_text.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Acc_mng_lbl.Name" xml:space="preserve">
+    <value>Acc_mng_lbl</value>
+  </data>
+  <data name="&gt;&gt;isAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Position_list.Items" xml:space="preserve">
+    <value>Retail</value>
+  </data>
+  <data name="isManager_check.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="Department_lab.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="btn_add.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Gender.HeaderText" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="btn_add.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Acc_mng_lbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lastname_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Acc_mng_lbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Department_lab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Gender_F.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="&gt;&gt;Password_text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StaffID.Name" xml:space="preserve">
+    <value>StaffID</value>
+  </data>
+  <data name="gender_m.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="&gt;&gt;Position_list.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Firstname_text.Name" xml:space="preserve">
+    <value>Firstname_text</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Position_list.Items3" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="&gt;&gt;isManager.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Firstname_text.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btn_back.Name" xml:space="preserve">
+    <value>btn_back</value>
+  </data>
+  <data name="isAdmin_check.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Admin_acc</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1115, 466</value>
+  </data>
+  <data name="&gt;&gt;StaffTel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lastname_label.Name" xml:space="preserve">
+    <value>Lastname_label</value>
+  </data>
+  <data name="&gt;&gt;isAdmin_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StaffTel.Name" xml:space="preserve">
+    <value>StaffTel</value>
+  </data>
+  <data name="&gt;&gt;Department_lab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lastname_text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 163</value>
+  </data>
+  <data name="&gt;&gt;Firstname_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pwd.HeaderText" xml:space="preserve">
+    <value>Pwd</value>
+  </data>
+  <data name="acc_View.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 100</value>
+  </data>
+  <data name="img_search.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="img_search.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btn_cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 380</value>
+  </data>
+  <data name="btn_back.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="acc_View.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="&gt;&gt;Firstname_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lastname_text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="isAdmin_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="isAdmin_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_add.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="Gender_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Salary_label.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;isAdmin_label.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Password_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_search.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Gender_F.Location" type="System.Drawing.Point, System.Drawing">
+    <value>414, 111</value>
+  </data>
+  <data name="txt_search.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18.2pt</value>
+  </data>
+  <data name="isAdmin_check.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;Gender_F.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Position_list.Items1" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="&gt;&gt;LastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StaffID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Department_lab.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="&gt;&gt;Password_label.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Acc_mng_lbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="&gt;&gt;Firstname_text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lastname_label.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="StaffTel_text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="&gt;&gt;isManager_check.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isManagel_label.Text" xml:space="preserve">
+    <value>isManager</value>
+  </data>
+  <data name="Acc_mng_lbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;FirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Salary_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;isAdmin_check.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isAdmin_check.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Salary_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Position_list.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Salary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StaffTel_text.Name" xml:space="preserve">
+    <value>StaffTel_text</value>
+  </data>
+  <data name="&gt;&gt;isManagel_label.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="isAdmin_label.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;isManagel_label.Name" xml:space="preserve">
+    <value>isManagel_label</value>
+  </data>
+  <data name="&gt;&gt;acc_View.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="isManagel_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 211</value>
+  </data>
+  <data name="StaffTel_text.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="RegDate.HeaderText" xml:space="preserve">
+    <value>RegDate</value>
+  </data>
+  <data name="Password_text.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="&gt;&gt;RegDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="accid.HeaderText" xml:space="preserve">
+    <value>accid</value>
+  </data>
+  <data name="&gt;&gt;btn_back.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isAdmin_check.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 269</value>
+  </data>
+  <data name="&gt;&gt;isAdmin_check.Name" xml:space="preserve">
+    <value>isAdmin_check</value>
+  </data>
+  <data name="&gt;&gt;Acc_mng_lbl.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="btn_del.Text" xml:space="preserve">
+    <value>Block</value>
+  </data>
+  <data name="acc_View.Size" type="System.Drawing.Size, System.Drawing">
+    <value>621, 319</value>
+  </data>
+  <data name="btn_del.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="Lastname_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isManager_check.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Position_list.Name" xml:space="preserve">
+    <value>Position_list</value>
+  </data>
+  <data name="txt_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>860, 51</value>
+  </data>
+  <data name="&gt;&gt;btn_del.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gender_m.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;FirstName.Name" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <data name="isManager_check.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="btn_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 39</value>
+  </data>
+  <data name="Password_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 23</value>
+  </data>
+  <data name="&gt;&gt;Department_lab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="isAdmin.HeaderText" xml:space="preserve">
+    <value>isAdmin</value>
+  </data>
+  <data name="StaffTel_label.Text" xml:space="preserve">
+    <value>StaffTel</value>
+  </data>
+  <data name="acc_View.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;btn_back.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_add.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="gender_m.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt, style=Bold</value>
+  </data>
+  <data name="btn_back.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;isManager.Name" xml:space="preserve">
+    <value>isManager</value>
+  </data>
+  <data name="&gt;&gt;img_search.Name" xml:space="preserve">
+    <value>img_search</value>
+  </data>
+  <data name="&gt;&gt;Salary_label.Name" xml:space="preserve">
+    <value>Salary_label</value>
+  </data>
+  <data name="Firstname_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_del.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 380</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastName.Name" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="Password_label.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Salary_numeric.Name" xml:space="preserve">
+    <value>Salary_numeric</value>
+  </data>
+  <data name="&gt;&gt;Firstname_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gender_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 23</value>
+  </data>
+  <data name="gender_m.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="&gt;&gt;Lastname_text.Name" xml:space="preserve">
+    <value>Lastname_text</value>
+  </data>
+  <data name="&gt;&gt;Lastname_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_back.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Firstname_text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 114</value>
+  </data>
+  <data name="Department_lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 160</value>
+  </data>
+  <data name="Salary_numeric.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 264</value>
+  </data>
+  <data name="Firstname_text.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="&gt;&gt;accid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isAdmin_label.Name" xml:space="preserve">
+    <value>isAdmin_label</value>
+  </data>
+  <data name="&gt;&gt;isManagel_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Password_text.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Password_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;isAdmin_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Salary.HeaderText" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="&gt;&gt;Password_label.Name" xml:space="preserve">
+    <value>Password_label</value>
+  </data>
+  <data name="&gt;&gt;RegDate.Name" xml:space="preserve">
+    <value>RegDate</value>
+  </data>
+  <data name="&gt;&gt;StaffTel_label.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Password_text.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="&gt;&gt;btn_del.Name" xml:space="preserve">
+    <value>btn_del</value>
+  </data>
+  <data name="&gt;&gt;Gender_F.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;acc_View.Name" xml:space="preserve">
+    <value>acc_View</value>
+  </data>
+  <data name="&gt;&gt;Password_text.Name" xml:space="preserve">
+    <value>Password_text</value>
+  </data>
+  <data name="&gt;&gt;Gender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Salary_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 260</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isAdmin_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="img_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1059, 47</value>
+  </data>
+  <data name="&gt;&gt;gender_m.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;isManager_check.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="isManagel_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Position_list.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="StaffTel_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 212</value>
+  </data>
+  <data name="&gt;&gt;Gender_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Lastname_label.Text" xml:space="preserve">
+    <value>Lastname</value>
+  </data>
+  <data name="Position_list.Items2" xml:space="preserve">
+    <value>Tech Support</value>
+  </data>
+  <data name="Position_list.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="txt_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 30</value>
+  </data>
+  <data name="Position.HeaderText" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Firstname_label.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;btn_back.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Gender_F.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="img_search.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="LastName.HeaderText" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="isManagel_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;isValid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gender_F.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Password_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Position.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isAdmin_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 260</value>
+  </data>
+  <data name="isManager.HeaderText" xml:space="preserve">
+    <value>isManager</value>
+  </data>
+  <data name="btn_cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Department_lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="&gt;&gt;Pwd.Name" xml:space="preserve">
+    <value>Pwd</value>
+  </data>
+  <data name="&gt;&gt;acc_View.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="isValid.HeaderText" xml:space="preserve">
+    <value>isValid</value>
+  </data>
+  <data name="Firstname_text.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="Firstname_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;StaffTel_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="img_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 34</value>
+  </data>
+  <data name="Gender_F.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 23</value>
+  </data>
+  <data name="Acc_mng_lbl.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="StaffID.HeaderText" xml:space="preserve">
+    <value>StaffID</value>
+  </data>
+  <data name="StaffTel_text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 212</value>
+  </data>
+  <data name="&gt;&gt;img_search.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Lastname_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 23</value>
+  </data>
+  <data name="Department_lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Department_lab.Text" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="&gt;&gt;Gender_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Firstname_text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="&gt;&gt;Salary.Name" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="Password_text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="isAdmin_check.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="Password_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StaffTel_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="Lastname_label.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="Gender_label.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="Password_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Position_list.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Password_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 307</value>
+  </data>
+  <data name="&gt;&gt;StaffTel_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Position_list.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;Gender_F.Name" xml:space="preserve">
+    <value>Gender_F</value>
+  </data>
+  <data name="&gt;&gt;Salary_numeric.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Department_lab.Name" xml:space="preserve">
+    <value>Department_lab</value>
+  </data>
+  <metadata name="isManager.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StaffID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="isAdmin.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="RegDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="accid.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Pwd.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Salary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StaffTel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Gender.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="FirstName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LastName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="isValid.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Position.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_approve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 352</value>
+  </data>
+  <data name="&gt;&gt;txt_suppEmail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_suppID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 23</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_suppID.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;img_search.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt, style=Bold</value>
+  </data>
+  <data name="txt_suppEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 24</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_approve.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="reorderRequest_view.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="&gt;&gt;prodName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_supName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 172</value>
+  </data>
+  <data name="&gt;&gt;txt_suppEmail.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_search.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Name" xml:space="preserve">
+    <value>txt_search</value>
+  </data>
+  <data name="&gt;&gt;img_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_approve.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_reject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 45</value>
+  </data>
+  <data name="lbl_suppID.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;txt_suppEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_suppEmail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="lbl_reordereq.Text" xml:space="preserve">
+    <value>Reorder Request</value>
+  </data>
+  <data name="&gt;&gt;btn_approve.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_supName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_suppName.Name" xml:space="preserve">
+    <value>lbl_suppName</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>reorder_request</value>
+  </data>
+  <data name="txt_suppTel.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="btn_reject.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_suppID.Text" xml:space="preserve">
+    <value>Supplier ID</value>
+  </data>
+  <data name="warehouseID.HeaderText" xml:space="preserve">
+    <value>warehouseID</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="reorderRequest_view.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;reorderRequest_view.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txt_suppID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;li_warehouse.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_suppName.Text" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="&gt;&gt;prodID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_suppTel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;reorderRequest_view.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_suppName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 146</value>
+  </data>
+  <data name="img_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 34</value>
+  </data>
+  <data name="li_warehouse.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="li_warehouse.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="prodID.HeaderText" xml:space="preserve">
+    <value>ProductID</value>
+  </data>
+  <data name="&gt;&gt;warehouseID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reorderRequest_view.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_approve.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lbl_suppID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_reordereq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 59</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_suppTel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;img_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="li_warehouse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>539, 33</value>
+  </data>
+  <data name="&gt;&gt;li_warehouse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_suppID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_suppEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;li_warehouse.Name" xml:space="preserve">
+    <value>li_warehouse</value>
+  </data>
+  <data name="li_warehouse.Items" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="li_warehouse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="&gt;&gt;StaffID.Name" xml:space="preserve">
+    <value>StaffID</value>
+  </data>
+  <data name="&gt;&gt;lbl_suppName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reordID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 212</value>
+  </data>
+  <data name="txt_suppID.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="&gt;&gt;lbl_reordereq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;warehouseID.Name" xml:space="preserve">
+    <value>warehouseID</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>reorder_request</value>
+  </data>
+  <data name="&gt;&gt;prodID.Name" xml:space="preserve">
+    <value>prodID</value>
+  </data>
+  <data name="btn_approve.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;img_search.Name" xml:space="preserve">
+    <value>img_search</value>
+  </data>
+  <data name="lbl_suppID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt, style=Bold</value>
+  </data>
+  <data name="txt_supName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 24</value>
+  </data>
+  <data name="&gt;&gt;txt_suppID.Name" xml:space="preserve">
+    <value>txt_suppID</value>
+  </data>
+  <data name="&gt;&gt;txt_suppID.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="img_search.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;txt_suppTel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_reordereq.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_suppID.Name" xml:space="preserve">
+    <value>lbl_suppID</value>
+  </data>
+  <data name="txt_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 30</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="txt_supName.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="btn_approve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 45</value>
+  </data>
+  <data name="img_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>874, 26</value>
+  </data>
+  <data name="&gt;&gt;txt_search.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="txt_search.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18.2pt</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_suppID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 106</value>
+  </data>
+  <data name="&gt;&gt;txt_supName.Name" xml:space="preserve">
+    <value>txt_supName</value>
+  </data>
+  <data name="lbl_suppID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 80</value>
+  </data>
+  <data name="btn_reject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 411</value>
+  </data>
+  <data name="txt_suppEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 308</value>
+  </data>
+  <data name="&gt;&gt;lbl_suppName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_reject.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lbl_suppName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt, style=Bold</value>
+  </data>
+  <data name="img_search.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btn_reject.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="&gt;&gt;btn_approve.Name" xml:space="preserve">
+    <value>btn_approve</value>
+  </data>
+  <data name="&gt;&gt;prodName.Name" xml:space="preserve">
+    <value>prodName</value>
+  </data>
+  <data name="lbl_suppName.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;lbl_suppName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_suppEmail.Name" xml:space="preserve">
+    <value>txt_suppEmail</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="&gt;&gt;txt_supName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txt_suppTel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 24</value>
+  </data>
+  <data name="reorderRequest_view.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 378</value>
+  </data>
+  <data name="txt_suppTel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 238</value>
+  </data>
+  <data name="lbl_suppName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_suppID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_reject.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;status.Name" xml:space="preserve">
+    <value>status</value>
+  </data>
+  <data name="btn_approve.Text" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="reordID.HeaderText" xml:space="preserve">
+    <value>reorderID</value>
+  </data>
+  <data name="txt_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 30</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Supplier Email</value>
+  </data>
+  <data name="&gt;&gt;reordID.Name" xml:space="preserve">
+    <value>reordID</value>
+  </data>
+  <data name="&gt;&gt;reorderRequest_view.Name" xml:space="preserve">
+    <value>reorderRequest_view</value>
+  </data>
+  <data name="lbl_reordereq.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 36pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txt_supName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_reordereq.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="lbl_suppName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 23</value>
+  </data>
+  <data name="li_warehouse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="txt_suppTel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btn_reject.Name" xml:space="preserve">
+    <value>btn_reject</value>
+  </data>
+  <data name="&gt;&gt;lbl_reordereq.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="reorderRequest_view.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 78</value>
+  </data>
+  <data name="txt_suppTel.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Supplier Tel</value>
+  </data>
+  <data name="&gt;&gt;lbl_reordereq.Name" xml:space="preserve">
+    <value>lbl_reordereq</value>
+  </data>
+  <data name="&gt;&gt;btn_reject.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="li_warehouse.Text" xml:space="preserve">
+    <value>- - -Warehouse- - -</value>
+  </data>
+  <data name="&gt;&gt;btn_reject.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;li_warehouse.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="prodName.HeaderText" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 282</value>
+  </data>
+  <data name="&gt;&gt;lbl_suppID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>924, 466</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_supName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btn_approve.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_reject.Text" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt, style=Bold</value>
+  </data>
+  <data name="lbl_reordereq.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_suppID.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="StaffID.HeaderText" xml:space="preserve">
+    <value>StaffID</value>
+  </data>
+  <data name="status.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;txt_suppTel.Name" xml:space="preserve">
+    <value>txt_suppTel</value>
+  </data>
+  <data name="txt_suppID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="txt_supName.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lbl_reordereq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 7</value>
+  </data>
+  <data name="txt_suppEmail.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_suppID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 24</value>
+  </data>
+  <data name="img_search.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;StaffID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="status.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="prodName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="reordID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="prodID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="warehouseID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StaffID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

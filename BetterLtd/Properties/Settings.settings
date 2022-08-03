@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BetterLtd.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="betterltdConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=113.252.166.103;user id=Admin;password=/MA{Q*XfWJZd&amp;amp;A!)9#R(93g5Ee~WK%;persistsecurityinfo=True;database=betterltd&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">server=113.252.166.103;user id=Admin;password=/MA{Q*XfWJZd&amp;A!)9#R(93g5Ee~WK%;persistsecurityinfo=True;database=betterltd</Value>
+    </Setting>
+    <Setting Name="betterltdConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;password=/MA{Q*XfWJZd&amp;amp;A!)9#R(93g5Ee~WK%;server=113.252.161.163;user id=Admin;persistsecurityinfo=True;database=betterltd&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">password=/MA{Q*XfWJZd&amp;A!)9#R(93g5Ee~WK%;server=113.252.161.163;user id=Admin;persistsecurityinfo=True;database=betterltd</Value>
+    </Setting>
+    <Setting Name="betterltdConnectionString_stock" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=113.252.166.103;password=/MA{Q*XfWJZd&amp;amp;A!)9#R(93g5Ee~WK%;user id=Admin;persistsecurityinfo=True;database=betterltd&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">server=113.252.166.103;password=/MA{Q*XfWJZd&amp;A!)9#R(93g5Ee~WK%;user id=Admin;persistsecurityinfo=True;database=betterltd</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

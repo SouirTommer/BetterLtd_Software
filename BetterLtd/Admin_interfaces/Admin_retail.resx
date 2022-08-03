@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 416</value>
+  </data>
+  <data name="&gt;&gt;address_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 39</value>
+  </data>
+  <data name="txt_storename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 112</value>
+  </data>
+  <data name="&gt;&gt;region_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;img_search.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_storename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_storename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_del.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_storeaddress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="btn_cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 39</value>
+  </data>
+  <data name="&gt;&gt;txt_region.Name" xml:space="preserve">
+    <value>txt_region</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_back.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="txt_storename.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="city_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_search.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;Address.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="city_label.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_cancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;txt_city.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;region_label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btn_del.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;region_label.Name" xml:space="preserve">
+    <value>region_label</value>
+  </data>
+  <data name="btn_add.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Region.HeaderText" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="storename_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 23</value>
+  </data>
+  <data name="&gt;&gt;StoreID.Name" xml:space="preserve">
+    <value>StoreID</value>
+  </data>
+  <data name="region_label.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="retailstore_lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 36pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;address_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Admin_retail</value>
+  </data>
+  <data name="Address.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="&gt;&gt;retailstore_lab.Name" xml:space="preserve">
+    <value>retailstore_lab</value>
+  </data>
+  <data name="&gt;&gt;txt_region.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="address_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 253</value>
+  </data>
+  <data name="StoreID.HeaderText" xml:space="preserve">
+    <value>StoreID</value>
+  </data>
+  <data name="city_label.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="txt_storename.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="btn_del.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Store_View.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txt_city.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="retailstore_lab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;city_label.Name" xml:space="preserve">
+    <value>city_label</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="txt_storeaddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 256</value>
+  </data>
+  <data name="retailstore_lab.Text" xml:space="preserve">
+    <value>Retail Store</value>
+  </data>
+  <data name="StoreName.HeaderText" xml:space="preserve">
+    <value>Store Name</value>
+  </data>
+  <data name="img_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 34</value>
+  </data>
+  <data name="&gt;&gt;txt_storeaddress.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="address_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 23</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Name" xml:space="preserve">
+    <value>txt_search</value>
+  </data>
+  <data name="&gt;&gt;Store_View.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_back.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 48</value>
+  </data>
+  <data name="&gt;&gt;img_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;City.Name" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="btn_del.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 39</value>
+  </data>
+  <data name="region_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btn_add.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_add.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="Store_View.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="btn_del.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 416</value>
+  </data>
+  <data name="&gt;&gt;btn_del.Name" xml:space="preserve">
+    <value>btn_del</value>
+  </data>
+  <data name="txt_region.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="&gt;&gt;City.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="region_label.Text" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="&gt;&gt;btn_back.Name" xml:space="preserve">
+    <value>btn_back</value>
+  </data>
+  <data name="&gt;&gt;retailstore_lab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Store_View.Size" type="System.Drawing.Size, System.Drawing">
+    <value>507, 374</value>
+  </data>
+  <data name="storename_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Admin_retail</value>
+  </data>
+  <data name="region_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="&gt;&gt;txt_storeaddress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="address_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="img_search.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="retailstore_lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 10</value>
+  </data>
+  <data name="btn_back.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txt_region.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 208</value>
+  </data>
+  <data name="btn_del.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="txt_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 32</value>
+  </data>
+  <data name="retailstore_lab.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btn_add.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;StoreName.Name" xml:space="preserve">
+    <value>StoreName</value>
+  </data>
+  <data name="&gt;&gt;storename_label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;storename_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_city.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_search.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_search.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18.2pt</value>
+  </data>
+  <data name="&gt;&gt;city_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;StoreName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_storeaddress.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;Store_View.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;region_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Name" xml:space="preserve">
+    <value>btn_add</value>
+  </data>
+  <data name="&gt;&gt;retailstore_lab.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btn_back.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="img_search.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txt_storeaddress.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;StoreID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="address_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txt_storeaddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Store_View.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 82</value>
+  </data>
+  <data name="&gt;&gt;txt_city.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_del.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="city_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="&gt;&gt;btn_del.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="storename_label.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;storename_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_add.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="retailstore_lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 59</value>
+  </data>
+  <data name="storename_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;img_search.Name" xml:space="preserve">
+    <value>img_search</value>
+  </data>
+  <data name="&gt;&gt;address_label.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txt_storename.Name" xml:space="preserve">
+    <value>txt_storename</value>
+  </data>
+  <data name="&gt;&gt;txt_city.Name" xml:space="preserve">
+    <value>txt_city</value>
+  </data>
+  <data name="&gt;&gt;retailstore_lab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_del.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 30</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_city.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="txt_region.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="&gt;&gt;city_label.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btn_back.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 416</value>
+  </data>
+  <data name="&gt;&gt;storename_label.Name" xml:space="preserve">
+    <value>storename_label</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_back.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 20</value>
+  </data>
+  <data name="&gt;&gt;btn_back.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_city.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 160</value>
+  </data>
+  <data name="&gt;&gt;txt_region.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Store_View.Name" xml:space="preserve">
+    <value>Store_View</value>
+  </data>
+  <data name="img_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>754, 32</value>
+  </data>
+  <data name="city_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Store_View.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_storeaddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 62</value>
+  </data>
+  <data name="region_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 205</value>
+  </data>
+  <data name="region_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;address_label.Name" xml:space="preserve">
+    <value>address_label</value>
+  </data>
+  <data name="txt_city.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="txt_region.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>826, 466</value>
+  </data>
+  <data name="&gt;&gt;img_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="city_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 157</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="address_label.Text" xml:space="preserve">
+    <value>Store Address</value>
+  </data>
+  <data name="btn_cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="storename_label.Text" xml:space="preserve">
+    <value>Store Name</value>
+  </data>
+  <data name="City.HeaderText" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="&gt;&gt;txt_storeaddress.Name" xml:space="preserve">
+    <value>txt_storeaddress</value>
+  </data>
+  <data name="&gt;&gt;city_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_back.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Region.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="address_label.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="storename_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 109</value>
+  </data>
+  <data name="&gt;&gt;txt_storename.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Region.Name" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="&gt;&gt;txt_region.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txt_storename.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.Name" xml:space="preserve">
+    <value>btn_cancel</value>
+  </data>
+  <data name="&gt;&gt;Address.Name" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="btn_back.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="img_search.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <metadata name="Address.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StoreID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="StoreName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="City.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Region.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

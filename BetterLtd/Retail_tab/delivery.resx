@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbx_A.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt, style=Bold</value>
+  </data>
+  <data name="cbx_E.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 27</value>
+  </data>
+  <data name="btn_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>703, 323</value>
+  </data>
+  <data name="cust_View.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 82</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbx_A.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="lbl_timeslot.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="btn_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 39</value>
+  </data>
+  <data name="lbl_custName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 94</value>
+  </data>
+  <data name="&gt;&gt;lbl_custTel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;img_search.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18pt, style=Bold</value>
+  </data>
+  <data name="txt_sid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="CustomerTel.HeaderText" xml:space="preserve">
+    <value>Tel</value>
+  </data>
+  <data name="&gt;&gt;cbx_M.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lbl_custTel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 39</value>
+  </data>
+  <data name="&gt;&gt;salesorder_view.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>703, 382</value>
+  </data>
+  <data name="lbl_custName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Name" xml:space="preserve">
+    <value>txt_search</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_cancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;cbx_E.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_cusaddress.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cust_View.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="dtp_date.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>date</value>
+  </data>
+  <data name="&gt;&gt;txt_sid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;salesorder_view.Name" xml:space="preserve">
+    <value>salesorder_view</value>
+  </data>
+  <data name="txt_custlname.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16pt</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Sid</value>
+  </data>
+  <data name="txt_sid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>812, 82</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbx_M.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="&gt;&gt;lbl_custName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_date.Name" xml:space="preserve">
+    <value>lbl_date</value>
+  </data>
+  <data name="lbl_custName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18pt, style=Bold</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Sales Order ID</value>
+  </data>
+  <data name="txt_cusaddress.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="lbl_timeslot.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18pt, style=Bold</value>
+  </data>
+  <data name="txt_search.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;cbx_E.Name" xml:space="preserve">
+    <value>cbx_E</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="lbl_timeslot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 128</value>
+  </data>
+  <data name="&gt;&gt;re_mng_lbl.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;dtp_date.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_custName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbx_E.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_date.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbx_E.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_custtel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="salesorder_view.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 323</value>
+  </data>
+  <data name="img_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 34</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;cbx_M.Name" xml:space="preserve">
+    <value>cbx_M</value>
+  </data>
+  <data name="re_mng_lbl.Text" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_custTel.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="dtp_date.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="&gt;&gt;ID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_custlname.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbx_M.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dtp_date.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;img_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="txt_custfname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 27</value>
+  </data>
+  <data name="&gt;&gt;txt_sid.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbx_A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 27</value>
+  </data>
+  <data name="btn_add.Text" xml:space="preserve">
+    <value>Arrange Delivery</value>
+  </data>
+  <data name="btn_add.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="lbl_custTel.Text" xml:space="preserve">
+    <value>Customer Tel</value>
+  </data>
+  <data name="&gt;&gt;salesorder_view.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_cusaddress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16pt</value>
+  </data>
+  <data name="lbl_timeslot.Text" xml:space="preserve">
+    <value>Time Slot</value>
+  </data>
+  <data name="txt_custlname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 27</value>
+  </data>
+  <data name="&gt;&gt;cbx_A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerTel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_custfname.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16pt</value>
+  </data>
+  <data name="&gt;&gt;cbx_M.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 281</value>
+  </data>
+  <data name="&gt;&gt;txt_custtel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_custTel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cust_View.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_custName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 29</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_custtel.Name" xml:space="preserve">
+    <value>txt_custtel</value>
+  </data>
+  <data name="&gt;&gt;lbl_timeslot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cust_View.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 234</value>
+  </data>
+  <data name="salesorder_view.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="img_search.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;cust_View.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_timeslot.Name" xml:space="preserve">
+    <value>lbl_timeslot</value>
+  </data>
+  <data name="salesorder_view.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="&gt;&gt;dtp_date.Name" xml:space="preserve">
+    <value>dtp_date</value>
+  </data>
+  <data name="&gt;&gt;cbx_A.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lbl_custTel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbx_E.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 214</value>
+  </data>
+  <data name="re_mng_lbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 7</value>
+  </data>
+  <data name="&gt;&gt;cust_View.Name" xml:space="preserve">
+    <value>cust_View</value>
+  </data>
+  <data name="btn_add.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 29</value>
+  </data>
+  <data name="txt_custtel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16pt</value>
+  </data>
+  <data name="&gt;&gt;img_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_custtel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_search.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_date.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 266</value>
+  </data>
+  <data name="&gt;&gt;re_mng_lbl.Name" xml:space="preserve">
+    <value>re_mng_lbl</value>
+  </data>
+  <data name="re_mng_lbl.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="&gt;&gt;re_mng_lbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_search.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18.2pt</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="&gt;&gt;lbl_date.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_custtel.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;cbx_A.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="re_mng_lbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 36pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txt_custfname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbx_A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 170</value>
+  </data>
+  <data name="&gt;&gt;cust_View.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_custtel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 218</value>
+  </data>
+  <data name="&gt;&gt;ID.Name" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Name" xml:space="preserve">
+    <value>btn_add</value>
+  </data>
+  <data name="txt_custfname.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="lbl_custTel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 29</value>
+  </data>
+  <data name="txt_sid.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="cbx_M.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 27</value>
+  </data>
+  <data name="&gt;&gt;lbl_date.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txt_custlname.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txt_custfname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 158</value>
+  </data>
+  <data name="cbx_E.Text" xml:space="preserve">
+    <value>Evening</value>
+  </data>
+  <data name="txt_cusaddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 323</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;cbx_E.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="dtp_date.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="lbl_custName.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="txt_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 35</value>
+  </data>
+  <data name="ID.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="cbx_A.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_timeslot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbx_M.Text" xml:space="preserve">
+    <value>Morning</value>
+  </data>
+  <data name="&gt;&gt;txt_custlname.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_sid.Name" xml:space="preserve">
+    <value>txt_sid</value>
+  </data>
+  <data name="&gt;&gt;btn_add.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cbx_M.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastName.Name" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="&gt;&gt;img_search.Name" xml:space="preserve">
+    <value>img_search</value>
+  </data>
+  <data name="&gt;&gt;txt_cusaddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_date.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lbl_date.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;salesorder_view.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_add.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 30</value>
+  </data>
+  <data name="lbl_custName.Text" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="lbl_date.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 29</value>
+  </data>
+  <data name="&gt;&gt;lbl_custName.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;re_mng_lbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_custlname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_E.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="re_mng_lbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_date.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CustomerTel.Name" xml:space="preserve">
+    <value>CustomerTel</value>
+  </data>
+  <data name="dtp_date.Location" type="System.Drawing.Point, System.Drawing">
+    <value>742, 274</value>
+  </data>
+  <data name="&gt;&gt;lbl_custTel.Name" xml:space="preserve">
+    <value>lbl_custTel</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 29</value>
+  </data>
+  <data name="ID.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;lbl_timeslot.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txt_cusaddress.Name" xml:space="preserve">
+    <value>txt_cusaddress</value>
+  </data>
+  <data name="LastName.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="cbx_M.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14pt, style=Bold</value>
+  </data>
+  <data name="cust_View.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Delivery Address</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="txt_cusaddress.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="&gt;&gt;lbl_custName.Name" xml:space="preserve">
+    <value>lbl_custName</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_cusaddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 108</value>
+  </data>
+  <data name="cbx_M.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 131</value>
+  </data>
+  <data name="img_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 31</value>
+  </data>
+  <data name="lbl_date.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_cusaddress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 79</value>
+  </data>
+  <data name="&gt;&gt;txt_custfname.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="img_search.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="LastName.HeaderText" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>924, 466</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_A.Name" xml:space="preserve">
+    <value>cbx_A</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_custfname.Name" xml:space="preserve">
+    <value>txt_custfname</value>
+  </data>
+  <data name="btn_cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="re_mng_lbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 59</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18pt, style=Bold</value>
+  </data>
+  <data name="btn_cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lbl_custTel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18pt, style=Bold</value>
+  </data>
+  <data name="txt_sid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16pt</value>
+  </data>
+  <data name="&gt;&gt;txt_custlname.Name" xml:space="preserve">
+    <value>txt_custlname</value>
+  </data>
+  <data name="cbx_A.Text" xml:space="preserve">
+    <value>Afternoon</value>
+  </data>
+  <data name="lbl_timeslot.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbx_E.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="lbl_timeslot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 29</value>
+  </data>
+  <data name="&gt;&gt;txt_custfname.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_sid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtp_date.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>delivery</value>
+  </data>
+  <data name="lbl_custTel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 215</value>
+  </data>
+  <data name="&gt;&gt;btn_cancel.Name" xml:space="preserve">
+    <value>btn_cancel</value>
+  </data>
+  <data name="txt_custtel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 27</value>
+  </data>
+  <data name="txt_custlname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 97</value>
+  </data>
+  <data name="salesorder_view.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 108</value>
+  </data>
+  <data name="img_search.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CustomerTel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LastName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

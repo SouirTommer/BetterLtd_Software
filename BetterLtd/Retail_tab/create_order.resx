@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;Remove.Name" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="ProductID.HeaderText" xml:space="preserve">
+    <value>ProductID</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 408</value>
+  </data>
+  <data name="txt_totalprice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 362</value>
+  </data>
+  <data name="Deposit_mode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 39</value>
+  </data>
+  <data name="&gt;&gt;txt_totalprice.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="li_brand.Text" xml:space="preserve">
+    <value>- - - - - Brand - - - - -</value>
+  </data>
+  <data name="&gt;&gt;re_mng_lbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 39</value>
+  </data>
+  <data name="ProductName.HeaderText" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="&gt;&gt;btn_clear.Name" xml:space="preserve">
+    <value>btn_clear</value>
+  </data>
+  <data name="&gt;&gt;btn_next.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Remove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_totalprice.Name" xml:space="preserve">
+    <value>txt_totalprice</value>
+  </data>
+  <data name="txt_totalprice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 27</value>
+  </data>
+  <data name="li_type.Items" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="txt_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>688, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_search.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Name" xml:space="preserve">
+    <value>txt_search</value>
+  </data>
+  <data name="li_brand.Items" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="&gt;&gt;img_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Remove.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="txt_totalprice.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Remove.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="btn_next.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="Deposit_mode.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Deposit_mode.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="&gt;&gt;li_store.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;li_type.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="li_type.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="&gt;&gt;Stock_View.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;img_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quantity.Name" xml:space="preserve">
+    <value>quantity</value>
+  </data>
+  <data name="li_brand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 22</value>
+  </data>
+  <data name="&gt;&gt;Deposit_mode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_next.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="Remove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 408</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;img_search.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="img_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 34</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_next.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 39</value>
+  </data>
+  <data name="re_mng_lbl.Text" xml:space="preserve">
+    <value>Create Order</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="li_type.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 408</value>
+  </data>
+  <data name="Stock_View.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="li_type.Text" xml:space="preserve">
+    <value>- - - - - -Type- - - - - -</value>
+  </data>
+  <data name="btn_next.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="itemlist_dgv.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;Deposit_mode.Name" xml:space="preserve">
+    <value>Deposit_mode</value>
+  </data>
+  <data name="btn_clear.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="btn_clear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 39</value>
+  </data>
+  <data name="btn_add.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_add.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="li_store.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="&gt;&gt;itemlist_dgv.Name" xml:space="preserve">
+    <value>itemlist_dgv</value>
+  </data>
+  <data name="&gt;&gt;ProductType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="li_brand.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10pt</value>
+  </data>
+  <data name="&gt;&gt;li_brand.Name" xml:space="preserve">
+    <value>li_brand</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;li_store.Name" xml:space="preserve">
+    <value>li_store</value>
+  </data>
+  <data name="re_mng_lbl.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="li_type.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>create_order</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Brand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="itemlist_dgv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 61</value>
+  </data>
+  <data name="Remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 39</value>
+  </data>
+  <data name="&gt;&gt;ProductID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="img_search.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;btn_next.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Brand.Name" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="li_store.Text" xml:space="preserve">
+    <value>- - - - - -Store - - - - -</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>PID</value>
+  </data>
+  <data name="re_mng_lbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, -1</value>
+  </data>
+  <data name="btn_add.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;itemlist_dgv.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_totalprice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_search.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;re_mng_lbl.Name" xml:space="preserve">
+    <value>re_mng_lbl</value>
+  </data>
+  <data name="itemlist_dgv.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;re_mng_lbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_search.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 18.2pt</value>
+  </data>
+  <data name="&gt;&gt;Deposit_mode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Deposit_mode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;itemlist_dgv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="re_mng_lbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 36pt, style=Bold</value>
+  </data>
+  <data name="li_brand.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_clear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btn_clear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="li_store.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Name" xml:space="preserve">
+    <value>btn_add</value>
+  </data>
+  <data name="&gt;&gt;li_type.Name" xml:space="preserve">
+    <value>li_type</value>
+  </data>
+  <data name="&gt;&gt;ProductType.Name" xml:space="preserve">
+    <value>ProductType</value>
+  </data>
+  <data name="img_search.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;quantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;itemlist_dgv.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Stock_View.Size" type="System.Drawing.Size, System.Drawing">
+    <value>736, 327</value>
+  </data>
+  <data name="Stock_View.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 61</value>
+  </data>
+  <data name="&gt;&gt;Stock_View.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Stock_View.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="li_type.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 22</value>
+  </data>
+  <data name="Brand.HeaderText" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="&gt;&gt;btn_clear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_next.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Remove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="btn_clear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Stock_View.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="&gt;&gt;li_type.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_add.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;li_brand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_clear.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="itemlist_dgv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 301</value>
+  </data>
+  <data name="&gt;&gt;Stock_View.Name" xml:space="preserve">
+    <value>Stock_View</value>
+  </data>
+  <data name="&gt;&gt;img_search.Name" xml:space="preserve">
+    <value>img_search</value>
+  </data>
+  <data name="&gt;&gt;Remove.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Deposit_mode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 408</value>
+  </data>
+  <data name="btn_add.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 30</value>
+  </data>
+  <data name="&gt;&gt;re_mng_lbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="li_type.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="&gt;&gt;li_store.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Remove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_next.Name" xml:space="preserve">
+    <value>btn_next</value>
+  </data>
+  <data name="Remove.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="Price.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="li_brand.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="li_store.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 22</value>
+  </data>
+  <data name="re_mng_lbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_totalprice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txt_totalprice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="&gt;&gt;li_brand.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txt_totalprice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="img_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 22</value>
+  </data>
+  <data name="&gt;&gt;Deposit_mode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;li_store.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>create_order</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>949, 466</value>
+  </data>
+  <data name="ProductType.HeaderText" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="btn_next.Location" type="System.Drawing.Point, System.Drawing">
+    <value>807, 408</value>
+  </data>
+  <data name="&gt;&gt;txt_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_add.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_next.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="re_mng_lbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 59</value>
+  </data>
+  <data name="&gt;&gt;li_brand.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductName.Name" xml:space="preserve">
+    <value>ProductName</value>
+  </data>
+  <data name="&gt;&gt;Price.Name" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="li_store.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="li_brand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="li_store.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="quantity.HeaderText" xml:space="preserve">
+    <value>quantity</value>
+  </data>
+  <data name="&gt;&gt;ProductID.Name" xml:space="preserve">
+    <value>ProductID</value>
+  </data>
+  <data name="&gt;&gt;li_type.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Deposit_mode.Text" xml:space="preserve">
+    <value>Deposit Mode</value>
+  </data>
+  <data name="txt_totalprice.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="btn_clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="img_search.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;Price.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="Brand.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ProductName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="quantity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Price.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ProductID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ProductType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

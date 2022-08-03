@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_pName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 175</value>
+  </data>
+  <data name="txt_pid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="&gt;&gt;txt_sid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_sid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_pName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_sid.Text" xml:space="preserve">
+    <value>Sales Order ID</value>
+  </data>
+  <data name="ProductName.HeaderText" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="&gt;&gt;txt_StoreId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_sid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="txt_pid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="lbl_odetail.Text" xml:space="preserve">
+    <value>Order Details</value>
+  </data>
+  <data name="&gt;&gt;lbl_sid.Name" xml:space="preserve">
+    <value>lbl_sid</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;num_return_qty.Name" xml:space="preserve">
+    <value>num_return_qty</value>
+  </data>
+  <data name="&gt;&gt;Price.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductName.Name" xml:space="preserve">
+    <value>ProductName</value>
+  </data>
+  <data name="&gt;&gt;lbl_currentStock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_pName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_sid.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;lbl_currentStock.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_currentstock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Total.HeaderText" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="lbl_pName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txt_sid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 38</value>
+  </data>
+  <data name="lbl_odetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 7</value>
+  </data>
+  <data name="&gt;&gt;lbl_sid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;od_dgv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="od_dgv.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="txt_StoreId.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>order_detail</value>
+  </data>
+  <data name="&gt;&gt;lbl_storeId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="num_return_qty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 362</value>
+  </data>
+  <data name="&gt;&gt;txt_currentstock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_odetail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="num_return_qty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="txt_StoreId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="&gt;&gt;quantity.Name" xml:space="preserve">
+    <value>quantity</value>
+  </data>
+  <data name="&gt;&gt;lbl_odetail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_currentstock.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="od_dgv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>638, 371</value>
+  </data>
+  <data name="lbl_currentStock.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="&gt;&gt;lbl_pid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_odetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 59</value>
+  </data>
+  <data name="lbl_return_qty.Text" xml:space="preserve">
+    <value>Return Qty</value>
+  </data>
+  <data name="&gt;&gt;num_return_qty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_currentstock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="btn_return.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="lbl_sid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 34</value>
+  </data>
+  <data name="&gt;&gt;num_return_qty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_currentStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="lbl_currentStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 251</value>
+  </data>
+  <data name="txt_pid.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txt_sid.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txt_pid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_currentStock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txt_pid.Name" xml:space="preserve">
+    <value>txt_pid</value>
+  </data>
+  <data name="txt_StoreId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 38</value>
+  </data>
+  <data name="ProductID.HeaderText" xml:space="preserve">
+    <value>ProductID</value>
+  </data>
+  <data name="&gt;&gt;btn_return.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_pid.Name" xml:space="preserve">
+    <value>lbl_pid</value>
+  </data>
+  <data name="lbl_pid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 23</value>
+  </data>
+  <data name="txt_StoreId.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;Total.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_currentstock.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_sid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_pid.Text" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>order_detail</value>
+  </data>
+  <data name="num_return_qty.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lbl_return_qty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_currentStock.Name" xml:space="preserve">
+    <value>lbl_currentStock</value>
+  </data>
+  <data name="&gt;&gt;lbl_odetail.Name" xml:space="preserve">
+    <value>lbl_odetail</value>
+  </data>
+  <data name="&gt;&gt;txt_pName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_currentstock.Name" xml:space="preserve">
+    <value>txt_currentstock</value>
+  </data>
+  <data name="num_return_qty.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="btn_return.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_pName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_storeId.Text" xml:space="preserve">
+    <value>Store ID</value>
+  </data>
+  <data name="lbl_sid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbl_storeId.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="lbl_storeId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 34</value>
+  </data>
+  <data name="&gt;&gt;lbl_pid.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;od_dgv.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txt_currentstock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="lbl_pid.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="&gt;&gt;lbl_return_qty.Name" xml:space="preserve">
+    <value>lbl_return_qty</value>
+  </data>
+  <data name="num_return_qty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="&gt;&gt;txt_StoreId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_pid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_pName.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;od_dgv.Name" xml:space="preserve">
+    <value>od_dgv</value>
+  </data>
+  <data name="&gt;&gt;txt_StoreId.Name" xml:space="preserve">
+    <value>txt_StoreId</value>
+  </data>
+  <data name="lbl_pName.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="txt_sid.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;quantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Total.Name" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="&gt;&gt;txt_sid.Name" xml:space="preserve">
+    <value>txt_sid</value>
+  </data>
+  <data name="&gt;&gt;txt_pName.Name" xml:space="preserve">
+    <value>txt_pName</value>
+  </data>
+  <data name="lbl_return_qty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbl_pid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btn_return.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="od_dgv.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;lbl_currentStock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_currentstock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 278</value>
+  </data>
+  <data name="lbl_storeId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_return_qty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_pName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txt_pName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="&gt;&gt;txt_pName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_pName.Text" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="&gt;&gt;lbl_storeId.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_return_qty.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_pName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="lbl_currentStock.Text" xml:space="preserve">
+    <value>Stock level</value>
+  </data>
+  <data name="txt_StoreId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="lbl_currentStock.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_return.Name" xml:space="preserve">
+    <value>btn_return</value>
+  </data>
+  <data name="txt_currentstock.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btn_return.Text" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="btn_return.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Price.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="&gt;&gt;lbl_pid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_pid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_storeId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_pName.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="lbl_pid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 98</value>
+  </data>
+  <data name="lbl_odetail.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;txt_pid.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;od_dgv.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_odetail.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txt_StoreId.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_pid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 125</value>
+  </data>
+  <data name="txt_pid.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="txt_pName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="txt_sid.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btn_return.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 39</value>
+  </data>
+  <data name="&gt;&gt;lbl_storeId.Name" xml:space="preserve">
+    <value>lbl_storeId</value>
+  </data>
+  <data name="lbl_odetail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ProductID.Name" xml:space="preserve">
+    <value>ProductID</value>
+  </data>
+  <data name="&gt;&gt;num_return_qty.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>826, 466</value>
+  </data>
+  <data name="btn_return.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 409</value>
+  </data>
+  <data name="&gt;&gt;lbl_pName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_sid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Price.Name" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="lbl_return_qty.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="quantity.HeaderText" xml:space="preserve">
+    <value>quantity</value>
+  </data>
+  <data name="&gt;&gt;btn_return.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_sid.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbl_return_qty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="&gt;&gt;lbl_sid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_storeId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="lbl_return_qty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 327</value>
+  </data>
+  <data name="txt_pName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 202</value>
+  </data>
+  <data name="od_dgv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 84</value>
+  </data>
+  <data name="&gt;&gt;lbl_pName.Name" xml:space="preserve">
+    <value>lbl_pName</value>
+  </data>
+  <data name="&gt;&gt;lbl_storeId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_return_qty.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_sid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="lbl_odetail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 36pt, style=Bold</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ProductName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Total.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Price.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ProductID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="quantity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

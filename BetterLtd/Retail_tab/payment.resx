@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 27</value>
+  </data>
+  <data name="btn_pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 37</value>
+  </data>
+  <data name="&gt;&gt;pic_visa.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;num_paid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_change.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_pos.Text" xml:space="preserve">
+    <value>Transfer Bill to POS</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pic_visa.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;pic_visa.Name" xml:space="preserve">
+    <value>pic_visa</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmbill.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 137</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btn_confirmbill.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 15.75pt, style=Bold</value>
+  </data>
+  <data name="pic_master.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 40</value>
+  </data>
+  <data name="&gt;&gt;txt_bill.Name" xml:space="preserve">
+    <value>txt_bill</value>
+  </data>
+  <data name="&gt;&gt;pic_master.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_confirmbill.Text" xml:space="preserve">
+    <value>Confirm Bill</value>
+  </data>
+  <data name="pic_ae.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 40</value>
+  </data>
+  <data name="&gt;&gt;product_lab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_bill.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="product_lab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_change.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;pic_master.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmbill.Name" xml:space="preserve">
+    <value>btn_confirmbill</value>
+  </data>
+  <data name="pic_master.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;txt_bill.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="num_paid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 167</value>
+  </data>
+  <data name="txt_bill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 79</value>
+  </data>
+  <data name="&gt;&gt;lbl_Bill.Name" xml:space="preserve">
+    <value>lbl_Bill</value>
+  </data>
+  <data name="&gt;&gt;txt_bill.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbl_card.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>payment</value>
+  </data>
+  <data name="txt_change.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 238</value>
+  </data>
+  <data name="btn_confirmbill.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="&gt;&gt;num_paid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="product_lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 7</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="lbl_cash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_cash.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_Bill.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16pt, style=Bold</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="txt_bill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="pic_master.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pic_visa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 383</value>
+  </data>
+  <data name="&gt;&gt;lbl_Bill.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_card.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt, style=Bold</value>
+  </data>
+  <data name="pic_master.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 383</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="&gt;&gt;btn_pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmbill.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_confirmbill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 284</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_card.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 23</value>
+  </data>
+  <data name="&gt;&gt;btn_pos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic_master.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="num_paid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="btn_pos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_pos.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="txt_change.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="lbl_cash.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_change.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>payment</value>
+  </data>
+  <data name="&gt;&gt;lbl_cash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Bill.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_change.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="pic_ae.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="pic_master.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="pic_visa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 40</value>
+  </data>
+  <data name="lbl_cash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 114</value>
+  </data>
+  <data name="&gt;&gt;lbl_card.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_cash.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_cash.Text" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="&gt;&gt;product_lab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_pos.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pic_ae.Name" xml:space="preserve">
+    <value>pic_ae</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="lbl_cash.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;num_paid.Name" xml:space="preserve">
+    <value>num_paid</value>
+  </data>
+  <data name="lbl_Bill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 27</value>
+  </data>
+  <data name="&gt;&gt;pic_ae.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_visa.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic_visa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 16pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;num_paid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 446</value>
+  </data>
+  <data name="lbl_Bill.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="btn_confirmbill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 37</value>
+  </data>
+  <data name="product_lab.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="txt_bill.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmbill.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="num_paid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;pic_master.Name" xml:space="preserve">
+    <value>pic_master</value>
+  </data>
+  <data name="lbl_Bill.Text" xml:space="preserve">
+    <value>Bill</value>
+  </data>
+  <data name="lbl_card.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lbl_card.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btn_pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_Bill.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="num_paid.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;product_lab.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_cash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 23</value>
+  </data>
+  <data name="product_lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 39</value>
+  </data>
+  <data name="lbl_card.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pic_ae.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pic_ae.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 383</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="pic_visa.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;txt_change.Name" xml:space="preserve">
+    <value>txt_change</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 208</value>
+  </data>
+  <data name="&gt;&gt;txt_change.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>364, 518</value>
+  </data>
+  <data name="txt_bill.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lbl_Bill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 50</value>
+  </data>
+  <data name="num_paid.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="pic_ae.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="product_lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 24pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btn_pos.Name" xml:space="preserve">
+    <value>btn_pos</value>
+  </data>
+  <data name="&gt;&gt;product_lab.Name" xml:space="preserve">
+    <value>product_lab</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Bill.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_bill.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;pic_ae.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_card.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 348</value>
+  </data>
+  <data name="&gt;&gt;lbl_cash.Name" xml:space="preserve">
+    <value>lbl_cash</value>
+  </data>
+  <data name="&gt;&gt;txt_change.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="product_lab.Text" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="lbl_card.Text" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="&gt;&gt;lbl_card.Name" xml:space="preserve">
+    <value>lbl_card</value>
+  </data>
+  <data name="pic_visa.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;pic_ae.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btn_confirmbill.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

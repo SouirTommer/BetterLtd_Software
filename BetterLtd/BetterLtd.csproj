@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0CDAC79-3331-4AF6-A16A-49B32BF58B4E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BetterLtd</RootNamespace>
+    <AssemblyName>BetterLtd</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.CF, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acc.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="accounting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accounting.Designer.cs">
+      <DependentUpon>accounting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts_tab\performance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts_tab\performance.Designer.cs">
+      <DependentUpon>performance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts_tab\revenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts_tab\revenue.Designer.cs">
+      <DependentUpon>revenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts_tab\store_compare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts_tab\store_compare.Designer.cs">
+      <DependentUpon>store_compare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="activitylog.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_interfaces\ActivityLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_interfaces\ActivityLog.Designer.cs">
+      <DependentUpon>ActivityLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_warehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_warehouse.Designer.cs">
+      <DependentUpon>Admin_warehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_acc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_acc.Designer.cs">
+      <DependentUpon>Admin_acc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_customer.Designer.cs">
+      <DependentUpon>Admin_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_interface.Designer.cs">
+      <DependentUpon>Admin_interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_menu.Designer.cs">
+      <DependentUpon>Admin_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_product.Designer.cs">
+      <DependentUpon>Admin_product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_retail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_retail.Designer.cs">
+      <DependentUpon>Admin_retail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_interfaces\Admin_supplier.Designer.cs">
+      <DependentUpon>Admin_supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Betterltd_model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Betterltd_model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Betterltd_model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Betterltd_model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Betterltd_model.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="customer.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="deliveryorder.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery\Deljobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delivery\Deljobs.Designer.cs">
+      <DependentUpon>Deljobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery\Delorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delivery\Delorder.Designer.cs">
+      <DependentUpon>Delorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Installation\Installjobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Installation\Installjobs.Designer.cs">
+      <DependentUpon>Installjobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Installation\Installorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Installation\Installorder.Designer.cs">
+      <DependentUpon>Installorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="installorder.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventory.Designer.cs">
+      <DependentUpon>inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory_tab\reorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory_tab\reorder.Designer.cs">
+      <DependentUpon>reorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory_tab\store_reorder_req.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory_tab\store_reorder_req.Designer.cs">
+      <DependentUpon>store_reorder_req.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory_tab\update_inward.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory_tab\update_inward.Designer.cs">
+      <DependentUpon>update_inward.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory_tab\whstock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory_tab\whstock.Designer.cs">
+      <DependentUpon>whstock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="payment.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="product.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profile.Designer.cs">
+      <DependentUpon>profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchase.Designer.cs">
+      <DependentUpon>purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_tab\catalogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_tab\catalogue.Designer.cs">
+      <DependentUpon>catalogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_tab\reorder_request.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_tab\reorder_request.Designer.cs">
+      <DependentUpon>reorder_request.cs</DependentUpon>
+    </Compile>
+    <Compile Include="retail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="retail.Designer.cs">
+      <DependentUpon>retail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="retailstore.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\choose_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\choose_customer.Designer.cs">
+      <DependentUpon>choose_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\confirm_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\confirm_order.Designer.cs">
+      <DependentUpon>confirm_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\create_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\create_order.Designer.cs">
+      <DependentUpon>create_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\delivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\delivery.Designer.cs">
+      <DependentUpon>delivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\order_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\order_detail.Designer.cs">
+      <DependentUpon>order_detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\order_record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\order_record.Designer.cs">
+      <DependentUpon>order_record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\payment.Designer.cs">
+      <DependentUpon>payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\pos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\pos.Designer.cs">
+      <DependentUpon>pos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\print_receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\print_receipt.Designer.cs">
+      <DependentUpon>print_receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\reorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\reorder.Designer.cs">
+      <DependentUpon>reorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retail_tab\restock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail_tab\restock.Designer.cs">
+      <DependentUpon>restock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salesorder.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="salesorder_detail.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="staff.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="store_reorder.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="store_stock.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="supplier.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tech_supp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tech_supp.Designer.cs">
+      <DependentUpon>Tech_supp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tech_supp_tab\duty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tech_supp_tab\duty.Designer.cs">
+      <DependentUpon>duty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="warehouse.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="warehouse_reorder.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="warehouse_stock.cs">
+      <DependentUpon>Betterltd_model.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="accounting.resx">
+      <DependentUpon>accounting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="accounting.zh-CN.resx">
+      <DependentUpon>accounting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts_tab\performance.resx">
+      <DependentUpon>performance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts_tab\performance.zh-CN.resx">
+      <DependentUpon>performance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts_tab\revenue.resx">
+      <DependentUpon>revenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts_tab\revenue.zh-CN.resx">
+      <DependentUpon>revenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts_tab\store_compare.resx">
+      <DependentUpon>store_compare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts_tab\store_compare.zh-CN.resx">
+      <DependentUpon>store_compare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\ActivityLog.resx">
+      <DependentUpon>ActivityLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\ActivityLog.zh-CN.resx">
+      <DependentUpon>ActivityLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_acc.resx">
+      <DependentUpon>Admin_acc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_acc.zh-CN.resx">
+      <DependentUpon>Admin_acc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_customer.resx">
+      <DependentUpon>Admin_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_customer.zh-CN.resx">
+      <DependentUpon>Admin_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_interface.resx">
+      <DependentUpon>Admin_interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_interface.zh-CN.resx">
+      <DependentUpon>Admin_interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_menu.resx">
+      <DependentUpon>Admin_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_menu.zh-CN.resx">
+      <DependentUpon>Admin_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_product.resx">
+      <DependentUpon>Admin_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_product.zh-CN.resx">
+      <DependentUpon>Admin_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_retail.resx">
+      <DependentUpon>Admin_retail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_retail.zh-CN.resx">
+      <DependentUpon>Admin_retail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_supplier.resx">
+      <DependentUpon>Admin_supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_supplier.zh-CN.resx">
+      <DependentUpon>Admin_supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_warehouse.resx">
+      <DependentUpon>Admin_warehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_interfaces\Admin_warehouse.zh-CN.resx">
+      <DependentUpon>Admin_warehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery\Deljobs.resx">
+      <DependentUpon>Deljobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery\Deljobs.zh-CN.resx">
+      <DependentUpon>Deljobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery\Delorder.resx">
+      <DependentUpon>Delorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery\Delorder.zh-CN.resx">
+      <DependentUpon>Delorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Installation\Installjobs.resx">
+      <DependentUpon>Installjobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Installation\Installjobs.zh-CN.resx">
+      <DependentUpon>Installjobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Installation\Installorder.resx">
+      <DependentUpon>Installorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Installation\Installorder.zh-CN.resx">
+      <DependentUpon>Installorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventory.resx">
+      <DependentUpon>inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventory.zh-CN.resx">
+      <DependentUpon>inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory_tab\reorder.resx">
+      <DependentUpon>reorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory_tab\reorder.zh-CN.resx">
+      <DependentUpon>reorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory_tab\store_reorder_req.resx">
+      <DependentUpon>store_reorder_req.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory_tab\store_reorder_req.zh-CN.resx">
+      <DependentUpon>store_reorder_req.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory_tab\update_inward.resx">
+      <DependentUpon>update_inward.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory_tab\update_inward.zh-CN.resx">
+      <DependentUpon>update_inward.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory_tab\whstock.resx">
+      <DependentUpon>whstock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory_tab\whstock.zh-CN.resx">
+      <DependentUpon>whstock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.zh-Hans.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile.resx">
+      <DependentUpon>profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile.zh-CN.resx">
+      <DependentUpon>profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="purchase.resx">
+      <DependentUpon>purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchase.zh-CN.resx">
+      <DependentUpon>purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_tab\catalogue.resx">
+      <DependentUpon>catalogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_tab\catalogue.zh-CN.resx">
+      <DependentUpon>catalogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_tab\reorder_request.resx">
+      <DependentUpon>reorder_request.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_tab\reorder_request.zh-CN.resx">
+      <DependentUpon>reorder_request.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="retail.resx">
+      <DependentUpon>retail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="retail.zh-CN.resx">
+      <DependentUpon>retail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\choose_customer.resx">
+      <DependentUpon>choose_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\choose_customer.zh-CN.resx">
+      <DependentUpon>choose_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\confirm_order.resx">
+      <DependentUpon>confirm_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\confirm_order.zh-CN.resx">
+      <DependentUpon>confirm_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\create_order.resx">
+      <DependentUpon>create_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\create_order.zh-CN.resx">
+      <DependentUpon>create_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\Customer.zh-CN.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\delivery.resx">
+      <DependentUpon>delivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\delivery.zh-CN.resx">
+      <DependentUpon>delivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\order_detail.resx">
+      <DependentUpon>order_detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\order_detail.zh-CN.resx">
+      <DependentUpon>order_detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\order_record.resx">
+      <DependentUpon>order_record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\order_record.zh-CN.resx">
+      <DependentUpon>order_record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\payment.resx">
+      <DependentUpon>payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\payment.zh-CN.resx">
+      <DependentUpon>payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\pos.resx">
+      <DependentUpon>pos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\pos.zh-CN.resx">
+      <DependentUpon>pos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\print_receipt.resx">
+      <DependentUpon>print_receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\reorder.resx">
+      <DependentUpon>reorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\reorder.zh-CN.resx">
+      <DependentUpon>reorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\restock.resx">
+      <DependentUpon>restock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retail_tab\restock.zh-CN.resx">
+      <DependentUpon>restock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tech_supp.resx">
+      <DependentUpon>Tech_supp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tech_supp.zh-CN.resx">
+      <DependentUpon>Tech_supp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tech_supp_tab\duty.resx">
+      <DependentUpon>duty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="Betterltd_model.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Betterltd_model.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Betterltd_model.edmx.diagram">
+      <DependentUpon>Betterltd_model.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Betterltd_model.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Betterltd_model.edmx</DependentUpon>
+      <LastGenOutput>Betterltd_model.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Betterltd_model.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Betterltd_model.edmx</DependentUpon>
+      <LastGenOutput>Betterltd_model.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\add-user_white.png" />
+    <None Include="Resources\kindpng_20108981.png" />
+    <None Include="Resources\shop-5121.png" />
+    <None Include="Resources\package-5121.png" />
+    <None Include="Resources\pngkey.com-cart-png-11697901.png" />
+    <None Include="Resources\account1.png" />
+    <None Include="Resources\account.png" />
+    <None Include="Resources\image %281%291.png" />
+    <None Include="Resources\image.png" />
+    <None Include="Resources\image %281%29.png" />
+    <None Include="Resources\id-card.png" />
+    <None Include="Resources\confidentiality2.png" />
+    <None Include="Resources\log-out1.png" />
+    <None Include="Resources\confidentiality1.png" />
+    <None Include="Resources\barn.png" />
+    <None Include="Resources\supplies1.png" />
+    <None Include="Resources\kindpng_2010898.png" />
+    <None Include="Resources\package-512.png" />
+    <None Include="Resources\pngkey.com-cart-png-1169790.png" />
+    <None Include="Resources\shop-512.png" />
+    <None Include="Resources\online-shop.png" />
+    <None Include="Resources\supplies.png" />
+    <None Include="Resources\AE.png" />
+    <None Include="Resources\SeekPng.com_citibank-logo-png_3364024.png" />
+    <None Include="Resources\58482354cef1014c0b5e49c0.png" />
+    <None Include="Resources\add-user.png" />
+    <None Include="Resources\username.png" />
+    <None Include="Resources\electronics-shop.png" />
+    <None Include="Resources\group1.png" />
+    <None Include="Resources\log-in.png" />
+    <None Include="Resources\padlock.png" />
+    <None Include="Resources\group.png" />
+    <None Include="Resources\log-out.png" />
+    <None Include="Resources\data-protection.png" />
+    <None Include="Resources\administration.png" />
+    <None Include="Resources\logout.png" />
+    <None Include="Resources\services.png" />
+    <None Include="Resources\add-product.png" />
+    <None Include="Resources\retail.png" />
+    <None Include="Resources\interface.png" />
+    <None Include="Resources\confidentiality.png" />
+    <None Include="Resources\users.png" />
+    <None Include="Properties\img_lib\logout.png" />
+    <None Include="Properties\img_lib\store.png" />
+    <None Include="Properties\img_lib\interface.png" />
+    <None Include="Properties\img_lib\supplier.png" />
+    <None Include="Properties\img_lib\customer %282%29.png" />
+    <None Include="Properties\img_lib\account.png" />
+    <None Include="Properties\img_lib\products.png" />
+    <None Include="Properties\img_lib\search.png" />
+    <None Include="Properties\img_lib\backpng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

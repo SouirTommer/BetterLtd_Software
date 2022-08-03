@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="betterltdModelStoreContainer" CdmEntityContainer="betterltdEntities">
+    <EntitySetMapping Name="accs">
+      <EntityTypeMapping TypeName="betterltdModel.acc">
+        <MappingFragment StoreEntitySet="acc">
+          <ScalarProperty Name="RegDate" ColumnName="RegDate" />
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+          <ScalarProperty Name="Pwd" ColumnName="Pwd" />
+          <ScalarProperty Name="accid" ColumnName="accid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="activitylogs">
+      <EntityTypeMapping TypeName="betterltdModel.activitylog">
+        <MappingFragment StoreEntitySet="activitylog">
+          <ScalarProperty Name="logDate" ColumnName="logDate" />
+          <ScalarProperty Name="Interface" ColumnName="Interface" />
+          <ScalarProperty Name="logType" ColumnName="logType" />
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="actlogID" ColumnName="actlogID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="betterltdModel.customer">
+        <MappingFragment StoreEntitySet="customer">
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+          <ScalarProperty Name="RegDate" ColumnName="RegDate" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CustomerTel" ColumnName="CustomerTel" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="deliveryorders">
+      <EntityTypeMapping TypeName="betterltdModel.deliveryorder">
+        <MappingFragment StoreEntitySet="deliveryorder">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="delReqPeriod" ColumnName="delReqPeriod" />
+          <ScalarProperty Name="delReqDate" ColumnName="delReqDate" />
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="delStatus" ColumnName="delStatus" />
+          <ScalarProperty Name="del_StaffID" ColumnName="del_StaffID" />
+          <ScalarProperty Name="reorderID" ColumnName="reorderID" />
+          <ScalarProperty Name="salorderID" ColumnName="salorderID" />
+          <ScalarProperty Name="delorderID" ColumnName="delorderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="installorders">
+      <EntityTypeMapping TypeName="betterltdModel.installorder">
+        <MappingFragment StoreEntitySet="installorder">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="insReqPeriod" ColumnName="insReqPeriod" />
+          <ScalarProperty Name="insReqDate" ColumnName="insReqDate" />
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="insStatus" ColumnName="insStatus" />
+          <ScalarProperty Name="ins_StaffID" ColumnName="ins_StaffID" />
+          <ScalarProperty Name="salorderID" ColumnName="salorderID" />
+          <ScalarProperty Name="insorderID" ColumnName="insorderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="betterltdModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+          <ScalarProperty Name="prodPrice" ColumnName="prodPrice" />
+          <ScalarProperty Name="prodName" ColumnName="prodName" />
+          <ScalarProperty Name="prodType" ColumnName="prodType" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="SupID" ColumnName="SupID" />
+          <ScalarProperty Name="prodID" ColumnName="prodID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="retailstores">
+      <EntityTypeMapping TypeName="betterltdModel.retailstore">
+        <MappingFragment StoreEntitySet="retailstore">
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="StoreName" ColumnName="StoreName" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="salesorders">
+      <EntityTypeMapping TypeName="betterltdModel.salesorder">
+        <MappingFragment StoreEntitySet="salesorder">
+          <ScalarProperty Name="isArranged" ColumnName="isArranged" />
+          <ScalarProperty Name="NeedInstall" ColumnName="NeedInstall" />
+          <ScalarProperty Name="NeedDelivery" ColumnName="NeedDelivery" />
+          <ScalarProperty Name="isPanding" ColumnName="isPanding" />
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+          <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+          <ScalarProperty Name="totalPrice" ColumnName="totalPrice" />
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="salorderID" ColumnName="salorderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="salesorder_detail">
+      <EntityTypeMapping TypeName="betterltdModel.salesorder_detail">
+        <MappingFragment StoreEntitySet="salesorder_detail">
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="prodName" ColumnName="prodName" />
+          <ScalarProperty Name="prodID" ColumnName="prodID" />
+          <ScalarProperty Name="salorderID" ColumnName="salorderID" />
+          <ScalarProperty Name="dummypk" ColumnName="dummypk" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="staffs">
+      <EntityTypeMapping TypeName="betterltdModel.staff">
+        <MappingFragment StoreEntitySet="staff">
+          <ScalarProperty Name="isAdmin" ColumnName="isAdmin" />
+          <ScalarProperty Name="isManager" ColumnName="isManager" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="StaffTel" ColumnName="StaffTel" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="store_reorder">
+      <EntityTypeMapping TypeName="betterltdModel.store_reorder">
+        <MappingFragment StoreEntitySet="store_reorder">
+          <ScalarProperty Name="approveDate" ColumnName="approveDate" />
+          <ScalarProperty Name="createDate" ColumnName="createDate" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="prodName" ColumnName="prodName" />
+          <ScalarProperty Name="prodID" ColumnName="prodID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="reordID" ColumnName="reordID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="store_stock">
+      <EntityTypeMapping TypeName="betterltdModel.store_stock">
+        <MappingFragment StoreEntitySet="store_stock">
+          <ScalarProperty Name="lowlevel" ColumnName="lowlevel" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="brand" ColumnName="brand" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="prodID" ColumnName="prodID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="suppliers">
+      <EntityTypeMapping TypeName="betterltdModel.supplier">
+        <MappingFragment StoreEntitySet="supplier">
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Supemail" ColumnName="Supemail" />
+          <ScalarProperty Name="SupTel" ColumnName="SupTel" />
+          <ScalarProperty Name="SupName" ColumnName="SupName" />
+          <ScalarProperty Name="SupID" ColumnName="SupID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="warehouses">
+      <EntityTypeMapping TypeName="betterltdModel.warehouse">
+        <MappingFragment StoreEntitySet="warehouse">
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="warehouseName" ColumnName="warehouseName" />
+          <ScalarProperty Name="warehouseID" ColumnName="warehouseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="warehouse_reorder">
+      <EntityTypeMapping TypeName="betterltdModel.warehouse_reorder">
+        <MappingFragment StoreEntitySet="warehouse_reorder">
+          <ScalarProperty Name="inward_status" ColumnName="inward_status" />
+          <ScalarProperty Name="approveDate" ColumnName="approveDate" />
+          <ScalarProperty Name="createDate" ColumnName="createDate" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="prodName" ColumnName="prodName" />
+          <ScalarProperty Name="prodID" ColumnName="prodID" />
+          <ScalarProperty Name="warehouseID" ColumnName="warehouseID" />
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="reordID" ColumnName="reordID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="warehouse_stock">
+      <EntityTypeMapping TypeName="betterltdModel.warehouse_stock">
+        <MappingFragment StoreEntitySet="warehouse_stock">
+          <ScalarProperty Name="lowlevel" ColumnName="lowlevel" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="brand" ColumnName="brand" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="prodID" ColumnName="prodID" />
+          <ScalarProperty Name="warehouseID" ColumnName="warehouseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="payments">
+      <EntityTypeMapping TypeName="betterltdModel.payment">
+        <MappingFragment StoreEntitySet="payment">
+          <ScalarProperty Name="totalPrice" ColumnName="totalPrice" />
+          <ScalarProperty Name="CardNum" ColumnName="CardNum" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="payID" ColumnName="payID" />
+          <ScalarProperty Name="receiptID" ColumnName="receiptID" />
+          <ScalarProperty Name="orderID" ColumnName="orderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

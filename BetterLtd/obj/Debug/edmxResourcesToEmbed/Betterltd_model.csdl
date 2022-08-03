@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="betterltdModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="betterltdEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="accs" EntityType="betterltdModel.acc" />
+    <EntitySet Name="activitylogs" EntityType="betterltdModel.activitylog" />
+    <EntitySet Name="customers" EntityType="betterltdModel.customer" />
+    <EntitySet Name="deliveryorders" EntityType="betterltdModel.deliveryorder" />
+    <EntitySet Name="installorders" EntityType="betterltdModel.installorder" />
+    <EntitySet Name="products" EntityType="betterltdModel.product" />
+    <EntitySet Name="retailstores" EntityType="betterltdModel.retailstore" />
+    <EntitySet Name="salesorders" EntityType="betterltdModel.salesorder" />
+    <EntitySet Name="salesorder_detail" EntityType="betterltdModel.salesorder_detail" />
+    <EntitySet Name="staffs" EntityType="betterltdModel.staff" />
+    <EntitySet Name="store_reorder" EntityType="betterltdModel.store_reorder" />
+    <EntitySet Name="store_stock" EntityType="betterltdModel.store_stock" />
+    <EntitySet Name="suppliers" EntityType="betterltdModel.supplier" />
+    <EntitySet Name="warehouses" EntityType="betterltdModel.warehouse" />
+    <EntitySet Name="warehouse_reorder" EntityType="betterltdModel.warehouse_reorder" />
+    <EntitySet Name="warehouse_stock" EntityType="betterltdModel.warehouse_stock" />
+    <EntitySet Name="payments" EntityType="betterltdModel.payment" />
+    <AssociationSet Name="sfid" Association="betterltdModel.sfid">
+      <End Role="acc" EntitySet="accs" />
+      <End Role="staff" EntitySet="staffs" />
+    </AssociationSet>
+    <AssociationSet Name="asfid" Association="betterltdModel.asfid">
+      <End Role="staff" EntitySet="staffs" />
+      <End Role="activitylog" EntitySet="activitylogs" />
+    </AssociationSet>
+    <AssociationSet Name="so_cid" Association="betterltdModel.so_cid">
+      <End Role="customer" EntitySet="customers" />
+      <End Role="salesorder" EntitySet="salesorders" />
+    </AssociationSet>
+    <AssociationSet Name="do_sfid" Association="betterltdModel.do_sfid">
+      <End Role="staff" EntitySet="staffs" />
+      <End Role="deliveryorder" EntitySet="deliveryorders" />
+    </AssociationSet>
+    <AssociationSet Name="do_soid" Association="betterltdModel.do_soid">
+      <End Role="salesorder" EntitySet="salesorders" />
+      <End Role="deliveryorder" EntitySet="deliveryorders" />
+    </AssociationSet>
+    <AssociationSet Name="io_sfid" Association="betterltdModel.io_sfid">
+      <End Role="staff" EntitySet="staffs" />
+      <End Role="installorder" EntitySet="installorders" />
+    </AssociationSet>
+    <AssociationSet Name="io_soid" Association="betterltdModel.io_soid">
+      <End Role="salesorder" EntitySet="salesorders" />
+      <End Role="installorder" EntitySet="installorders" />
+    </AssociationSet>
+    <AssociationSet Name="spid" Association="betterltdModel.spid">
+      <End Role="supplier" EntitySet="suppliers" />
+      <End Role="product" EntitySet="products" />
+    </AssociationSet>
+    <AssociationSet Name="sr_proid" Association="betterltdModel.sr_proid">
+      <End Role="product" EntitySet="products" />
+      <End Role="store_reorder" EntitySet="store_reorder" />
+    </AssociationSet>
+    <AssociationSet Name="ss_proid" Association="betterltdModel.ss_proid">
+      <End Role="product" EntitySet="products" />
+      <End Role="store_stock" EntitySet="store_stock" />
+    </AssociationSet>
+    <AssociationSet Name="wr_proid" Association="betterltdModel.wr_proid">
+      <End Role="product" EntitySet="products" />
+      <End Role="warehouse_reorder" EntitySet="warehouse_reorder" />
+    </AssociationSet>
+    <AssociationSet Name="ws_proid" Association="betterltdModel.ws_proid">
+      <End Role="product" EntitySet="products" />
+      <End Role="warehouse_stock" EntitySet="warehouse_stock" />
+    </AssociationSet>
+    <AssociationSet Name="so_storeid" Association="betterltdModel.so_storeid">
+      <End Role="retailstore" EntitySet="retailstores" />
+      <End Role="salesorder" EntitySet="salesorders" />
+    </AssociationSet>
+    <AssociationSet Name="sr_storeid" Association="betterltdModel.sr_storeid">
+      <End Role="retailstore" EntitySet="retailstores" />
+      <End Role="store_reorder" EntitySet="store_reorder" />
+    </AssociationSet>
+    <AssociationSet Name="ss_storeid" Association="betterltdModel.ss_storeid">
+      <End Role="retailstore" EntitySet="retailstores" />
+      <End Role="store_stock" EntitySet="store_stock" />
+    </AssociationSet>
+    <AssociationSet Name="so_sfid" Association="betterltdModel.so_sfid">
+      <End Role="staff" EntitySet="staffs" />
+      <End Role="salesorder" EntitySet="salesorders" />
+    </AssociationSet>
+    <AssociationSet Name="sr_stfid" Association="betterltdModel.sr_stfid">
+      <End Role="staff" EntitySet="staffs" />
+      <End Role="store_reorder" EntitySet="store_reorder" />
+    </AssociationSet>
+    <AssociationSet Name="wr_sfid" Association="betterltdModel.wr_sfid">
+      <End Role="staff" EntitySet="staffs" />
+      <End Role="warehouse_reorder" EntitySet="warehouse_reorder" />
+    </AssociationSet>
+    <AssociationSet Name="wr_whid" Association="betterltdModel.wr_whid">
+      <End Role="warehouse" EntitySet="warehouses" />
+      <End Role="warehouse_reorder" EntitySet="warehouse_reorder" />
+    </AssociationSet>
+    <AssociationSet Name="ws_whid" Association="betterltdModel.ws_whid">
+      <End Role="warehouse" EntitySet="warehouses" />
+      <End Role="warehouse_stock" EntitySet="warehouse_stock" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="acc">
+    <Key>
+      <PropertyRef Name="accid" />
+    </Key>
+    <Property Name="accid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pwd" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="isValid" Type="Int32" Nullable="false" />
+    <Property Name="RegDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="staff" Relationship="betterltdModel.sfid" FromRole="acc" ToRole="staff" />
+  </EntityType>
+  <EntityType Name="activitylog">
+    <Key>
+      <PropertyRef Name="actlogID" />
+    </Key>
+    <Property Name="actlogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StaffID" Type="Int32" Nullable="false" />
+    <Property Name="logType" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Interface" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="logDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="staff" Relationship="betterltdModel.asfid" FromRole="activitylog" ToRole="staff" />
+  </EntityType>
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CustomerTel" Type="Int32" Nullable="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="RegDate" Type="DateTime" Nullable="false" />
+    <Property Name="isValid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="salesorders" Relationship="betterltdModel.so_cid" FromRole="customer" ToRole="salesorder" />
+  </EntityType>
+  <EntityType Name="deliveryorder">
+    <Key>
+      <PropertyRef Name="delorderID" />
+    </Key>
+    <Property Name="delorderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="salorderID" Type="Int32" />
+    <Property Name="reorderID" Type="Int32" />
+    <Property Name="del_StaffID" Type="Int32" />
+    <Property Name="delStatus" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="isValid" Type="Int32" Nullable="false" />
+    <Property Name="delReqDate" Type="DateTime" Nullable="false" />
+    <Property Name="delReqPeriod" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="staff" Relationship="betterltdModel.do_sfid" FromRole="deliveryorder" ToRole="staff" />
+    <NavigationProperty Name="salesorder" Relationship="betterltdModel.do_soid" FromRole="deliveryorder" ToRole="salesorder" />
+  </EntityType>
+  <EntityType Name="installorder">
+    <Key>
+      <PropertyRef Name="insorderID" />
+    </Key>
+    <Property Name="insorderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="salorderID" Type="Int32" Nullable="false" />
+    <Property Name="ins_StaffID" Type="Int32" />
+    <Property Name="insStatus" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="isValid" Type="Int32" Nullable="false" />
+    <Property Name="insReqDate" Type="DateTime" Nullable="false" />
+    <Property Name="insReqPeriod" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="staff" Relationship="betterltdModel.io_sfid" FromRole="installorder" ToRole="staff" />
+    <NavigationProperty Name="salesorder" Relationship="betterltdModel.io_soid" FromRole="installorder" ToRole="salesorder" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="prodID" />
+    </Key>
+    <Property Name="prodID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SupID" Type="Int32" />
+    <Property Name="Brand" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="prodType" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="prodName" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="prodPrice" Type="Decimal" Nullable="false" />
+    <Property Name="isValid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="supplier" Relationship="betterltdModel.spid" FromRole="product" ToRole="supplier" />
+    <NavigationProperty Name="store_reorder" Relationship="betterltdModel.sr_proid" FromRole="product" ToRole="store_reorder" />
+    <NavigationProperty Name="store_stock" Relationship="betterltdModel.ss_proid" FromRole="product" ToRole="store_stock" />
+    <NavigationProperty Name="warehouse_reorder" Relationship="betterltdModel.wr_proid" FromRole="product" ToRole="warehouse_reorder" />
+    <NavigationProperty Name="warehouse_stock" Relationship="betterltdModel.ws_proid" FromRole="product" ToRole="warehouse_stock" />
+  </EntityType>
+  <EntityType Name="retailstore">
+    <Key>
+      <PropertyRef Name="StoreID" />
+    </Key>
+    <Property Name="StoreID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StoreName" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Region" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="isValid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="salesorders" Relationship="betterltdModel.so_storeid" FromRole="retailstore" ToRole="salesorder" />
+    <NavigationProperty Name="store_reorder" Relationship="betterltdModel.sr_storeid" FromRole="retailstore" ToRole="store_reorder" />
+    <NavigationProperty Name="store_stock" Relationship="betterltdModel.ss_storeid" FromRole="retailstore" ToRole="store_stock" />
+  </EntityType>
+  <EntityType Name="salesorder">
+    <Key>
+      <PropertyRef Name="salorderID" />
+    </Key>
+    <Property Name="salorderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StoreID" Type="Int32" Nullable="false" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="StaffID" Type="Int32" Nullable="false" />
+    <Property Name="totalPrice" Type="Decimal" Nullable="false" />
+    <Property Name="dateCreated" Type="DateTime" Nullable="false" />
+    <Property Name="isValid" Type="Int32" Nullable="false" />
+    <Property Name="isPanding" Type="Int32" Nullable="false" />
+    <Property Name="NeedDelivery" Type="Int32" Nullable="false" />
+    <Property Name="NeedInstall" Type="Int32" Nullable="false" />
+    <Property Name="isArranged" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="customer" Relationship="betterltdModel.so_cid" FromRole="salesorder" ToRole="customer" />
+    <NavigationProperty Name="deliveryorders" Relationship="betterltdModel.do_soid" FromRole="salesorder" ToRole="deliveryorder" />
+    <NavigationProperty Name="installorders" Relationship="betterltdModel.io_soid" FromRole="salesorder" ToRole="installorder" />
+    <NavigationProperty Name="retailstore" Relationship="betterltdModel.so_storeid" FromRole="salesorder" ToRole="retailstore" />
+    <NavigationProperty Name="staff" Relationship="betterltdModel.so_sfid" FromRole="salesorder" ToRole="staff" />
+  </EntityType>
+  <EntityType Name="salesorder_detail">
+    <Key>
+      <PropertyRef Name="dummypk" />
+    </Key>
+    <Property Name="dummypk" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="salorderID" Type="Int32" Nullable="false" />
+    <Property Name="prodID" Type="Int32" Nullable="false" />
+    <Property Name="prodName" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" />
+    <Property Name="qty" Type="Int32" Nullable="false" />
+    <Property Name="Total" Type="Int32" Nullable="false" />
+    <Property Name="isValid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="staff">
+    <Key>
+      <PropertyRef Name="StaffID" />
+    </Key>
+    <Property Name="StaffID" Type="Int32" Nullable="false" />
+    <Property Name="Position" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="StaffTel" Type="Int32" Nullable="false" />
+    <Property Name="Salary" Type="Decimal" Nullable="false" />
+    <Property Name="isManager" Type="Int32" Nullable="false" />
+    <Property Name="isAdmin" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="acc" Relationship="betterltdModel.sfid" FromRole="staff" ToRole="acc" />
+    <NavigationProperty Name="activitylogs" Relationship="betterltdModel.asfid" FromRole="staff" ToRole="activitylog" />
+    <NavigationProperty Name="deliveryorders" Relationship="betterltdModel.do_sfid" FromRole="staff" ToRole="deliveryorder" />
+    <NavigationProperty Name="installorders" Relationship="betterltdModel.io_sfid" FromRole="staff" ToRole="installorder" />
+    <NavigationProperty Name="salesorders" Relationship="betterltdModel.so_sfid" FromRole="staff" ToRole="salesorder" />
+    <NavigationProperty Name="store_reorder" Relationship="betterltdModel.sr_stfid" FromRole="staff" ToRole="store_reorder" />
+    <NavigationProperty Name="warehouse_reorder" Relationship="betterltdModel.wr_sfid" FromRole="staff" ToRole="warehouse_reorder" />
+  </EntityType>
+  <EntityType Name="store_reorder">
+    <Key>
+      <PropertyRef Name="reordID" />
+    </Key>
+    <Property Name="reordID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StaffID" Type="Int32" Nullable="false" />
+    <Property Name="StoreID" Type="Int32" Nullable="false" />
+    <Property Name="prodID" Type="Int32" Nullable="false" />
+    <Property Name="prodName" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="status" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="createDate" Type="DateTime" Nullable="false" />
+    <Property Name="approveDate" Type="DateTime" />
+    <NavigationProperty Name="product" Relationship="betterltdModel.sr_proid" FromRole="store_reorder" ToRole="product" />
+    <NavigationProperty Name="retailstore" Relationship="betterltdModel.sr_storeid" FromRole="store_reorder" ToRole="retailstore" />
+    <NavigationProperty Name="staff" Relationship="betterltdModel.sr_stfid" FromRole="store_reorder" ToRole="staff" />
+  </EntityType>
+  <EntityType Name="store_stock">
+    <Key>
+      <PropertyRef Name="StoreID" />
+      <PropertyRef Name="prodID" />
+    </Key>
+    <Property Name="StoreID" Type="Int32" Nullable="false" />
+    <Property Name="prodID" Type="Int32" Nullable="false" />
+    <Property Name="category" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="brand" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="qty" Type="Int32" Nullable="false" />
+    <Property Name="lowlevel" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="product" Relationship="betterltdModel.ss_proid" FromRole="store_stock" ToRole="product" />
+    <NavigationProperty Name="retailstore" Relationship="betterltdModel.ss_storeid" FromRole="store_stock" ToRole="retailstore" />
+  </EntityType>
+  <EntityType Name="supplier">
+    <Key>
+      <PropertyRef Name="SupID" />
+    </Key>
+    <Property Name="SupID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SupName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SupTel" Type="Int32" Nullable="false" />
+    <Property Name="Supemail" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="isValid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="products" Relationship="betterltdModel.spid" FromRole="supplier" ToRole="product" />
+  </EntityType>
+  <EntityType Name="warehouse">
+    <Key>
+      <PropertyRef Name="warehouseID" />
+    </Key>
+    <Property Name="warehouseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="warehouseName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Region" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="isValid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="warehouse_reorder" Relationship="betterltdModel.wr_whid" FromRole="warehouse" ToRole="warehouse_reorder" />
+    <NavigationProperty Name="warehouse_stock" Relationship="betterltdModel.ws_whid" FromRole="warehouse" ToRole="warehouse_stock" />
+  </EntityType>
+  <EntityType Name="warehouse_reorder">
+    <Key>
+      <PropertyRef Name="reordID" />
+    </Key>
+    <Property Name="reordID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StaffID" Type="Int32" Nullable="false" />
+    <Property Name="warehouseID" Type="Int32" Nullable="false" />
+    <Property Name="prodID" Type="Int32" Nullable="false" />
+    <Property Name="prodName" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="status" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="createDate" Type="DateTime" Nullable="false" />
+    <Property Name="approveDate" Type="DateTime" />
+    <Property Name="inward_status" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="product" Relationship="betterltdModel.wr_proid" FromRole="warehouse_reorder" ToRole="product" />
+    <NavigationProperty Name="staff" Relationship="betterltdModel.wr_sfid" FromRole="warehouse_reorder" ToRole="staff" />
+    <NavigationProperty Name="warehouse" Relationship="betterltdModel.wr_whid" FromRole="warehouse_reorder" ToRole="warehouse" />
+  </EntityType>
+  <EntityType Name="warehouse_stock">
+    <Key>
+      <PropertyRef Name="warehouseID" />
+      <PropertyRef Name="prodID" />
+    </Key>
+    <Property Name="warehouseID" Type="Int32" Nullable="false" />
+    <Property Name="prodID" Type="Int32" Nullable="false" />
+    <Property Name="category" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="brand" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="qty" Type="Int32" Nullable="false" />
+    <Property Name="lowlevel" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="product" Relationship="betterltdModel.ws_proid" FromRole="warehouse_stock" ToRole="product" />
+    <NavigationProperty Name="warehouse" Relationship="betterltdModel.ws_whid" FromRole="warehouse_stock" ToRole="warehouse" />
+  </EntityType>
+  <EntityType Name="payment">
+    <Key>
+      <PropertyRef Name="orderID" />
+      <PropertyRef Name="receiptID" />
+      <PropertyRef Name="payID" />
+      <PropertyRef Name="CustomerID" />
+      <PropertyRef Name="CardNum" />
+      <PropertyRef Name="totalPrice" />
+    </Key>
+    <Property Name="orderID" Type="Int32" Nullable="false" />
+    <Property Name="receiptID" Type="Int32" Nullable="false" />
+    <Property Name="payID" Type="Int32" Nullable="false" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="CardNum" Type="Int32" Nullable="false" />
+    <Property Name="totalPrice" Type="Decimal" Nullable="false" />
+  </EntityType>
+  <Association Name="sfid">
+    <End Type="betterltdModel.acc" Role="acc" Multiplicity="1" />
+    <End Type="betterltdModel.staff" Role="staff" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="acc">
+        <PropertyRef Name="accid" />
+      </Principal>
+      <Dependent Role="staff">
+        <PropertyRef Name="StaffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="asfid">
+    <End Type="betterltdModel.staff" Role="staff" Multiplicity="1" />
+    <End Type="betterltdModel.activitylog" Role="activitylog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="StaffID" />
+      </Principal>
+      <Dependent Role="activitylog">
+        <PropertyRef Name="StaffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="so_cid">
+    <End Type="betterltdModel.customer" Role="customer" Multiplicity="0..1" />
+    <End Type="betterltdModel.salesorder" Role="salesorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="salesorder">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="do_sfid">
+    <End Type="betterltdModel.staff" Role="staff" Multiplicity="0..1" />
+    <End Type="betterltdModel.deliveryorder" Role="deliveryorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="StaffID" />
+      </Principal>
+      <Dependent Role="deliveryorder">
+        <PropertyRef Name="del_StaffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="do_soid">
+    <End Type="betterltdModel.salesorder" Role="salesorder" Multiplicity="0..1" />
+    <End Type="betterltdModel.deliveryorder" Role="deliveryorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="salesorder">
+        <PropertyRef Name="salorderID" />
+      </Principal>
+      <Dependent Role="deliveryorder">
+        <PropertyRef Name="salorderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="io_sfid">
+    <End Type="betterltdModel.staff" Role="staff" Multiplicity="0..1" />
+    <End Type="betterltdModel.installorder" Role="installorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="StaffID" />
+      </Principal>
+      <Dependent Role="installorder">
+        <PropertyRef Name="ins_StaffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="io_soid">
+    <End Type="betterltdModel.salesorder" Role="salesorder" Multiplicity="1" />
+    <End Type="betterltdModel.installorder" Role="installorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="salesorder">
+        <PropertyRef Name="salorderID" />
+      </Principal>
+      <Dependent Role="installorder">
+        <PropertyRef Name="salorderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="spid">
+    <End Type="betterltdModel.supplier" Role="supplier" Multiplicity="0..1" />
+    <End Type="betterltdModel.product" Role="product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="supplier">
+        <PropertyRef Name="SupID" />
+      </Principal>
+      <Dependent Role="product">
+        <PropertyRef Name="SupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="sr_proid">
+    <End Type="betterltdModel.product" Role="product" Multiplicity="1" />
+    <End Type="betterltdModel.store_reorder" Role="store_reorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="prodID" />
+      </Principal>
+      <Dependent Role="store_reorder">
+        <PropertyRef Name="prodID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ss_proid">
+    <End Type="betterltdModel.product" Role="product" Multiplicity="1" />
+    <End Type="betterltdModel.store_stock" Role="store_stock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="prodID" />
+      </Principal>
+      <Dependent Role="store_stock">
+        <PropertyRef Name="prodID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="wr_proid">
+    <End Type="betterltdModel.product" Role="product" Multiplicity="1" />
+    <End Type="betterltdModel.warehouse_reorder" Role="warehouse_reorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="prodID" />
+      </Principal>
+      <Dependent Role="warehouse_reorder">
+        <PropertyRef Name="prodID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ws_proid">
+    <End Type="betterltdModel.product" Role="product" Multiplicity="1" />
+    <End Type="betterltdModel.warehouse_stock" Role="warehouse_stock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="prodID" />
+      </Principal>
+      <Dependent Role="warehouse_stock">
+        <PropertyRef Name="prodID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="so_storeid">
+    <End Type="betterltdModel.retailstore" Role="retailstore" Multiplicity="1" />
+    <End Type="betterltdModel.salesorder" Role="salesorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="retailstore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="salesorder">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="sr_storeid">
+    <End Type="betterltdModel.retailstore" Role="retailstore" Multiplicity="1" />
+    <End Type="betterltdModel.store_reorder" Role="store_reorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="retailstore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="store_reorder">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ss_storeid">
+    <End Type="betterltdModel.retailstore" Role="retailstore" Multiplicity="1" />
+    <End Type="betterltdModel.store_stock" Role="store_stock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="retailstore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="store_stock">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="so_sfid">
+    <End Type="betterltdModel.staff" Role="staff" Multiplicity="1" />
+    <End Type="betterltdModel.salesorder" Role="salesorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="StaffID" />
+      </Principal>
+      <Dependent Role="salesorder">
+        <PropertyRef Name="StaffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="sr_stfid">
+    <End Type="betterltdModel.staff" Role="staff" Multiplicity="1" />
+    <End Type="betterltdModel.store_reorder" Role="store_reorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="StaffID" />
+      </Principal>
+      <Dependent Role="store_reorder">
+        <PropertyRef Name="StaffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="wr_sfid">
+    <End Type="betterltdModel.staff" Role="staff" Multiplicity="1" />
+    <End Type="betterltdModel.warehouse_reorder" Role="warehouse_reorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="StaffID" />
+      </Principal>
+      <Dependent Role="warehouse_reorder">
+        <PropertyRef Name="StaffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="wr_whid">
+    <End Type="betterltdModel.warehouse" Role="warehouse" Multiplicity="1" />
+    <End Type="betterltdModel.warehouse_reorder" Role="warehouse_reorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="warehouse">
+        <PropertyRef Name="warehouseID" />
+      </Principal>
+      <Dependent Role="warehouse_reorder">
+        <PropertyRef Name="warehouseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ws_whid">
+    <End Type="betterltdModel.warehouse" Role="warehouse" Multiplicity="1" />
+    <End Type="betterltdModel.warehouse_stock" Role="warehouse_stock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="warehouse">
+        <PropertyRef Name="warehouseID" />
+      </Principal>
+      <Dependent Role="warehouse_stock">
+        <PropertyRef Name="warehouseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

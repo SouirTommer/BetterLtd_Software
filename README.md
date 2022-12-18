@@ -42,6 +42,8 @@ solution: Build a database to store all the goods information into the database.
 ![image](https://user-images.githubusercontent.com/31412017/208285914-1adbe4af-3bb7-4507-9047-c8554862afef.png)
 ![image](https://user-images.githubusercontent.com/31412017/208285922-f7d806f5-3886-488e-9fea-c362a448a9cc.png)
 
-##This is just a small part, all functions are connected to the database and working fine :)
+## This is just a small part, all functions are connected to the database and working fine :)
+
+Project Duration: February 2022 - July 2022
 
 
